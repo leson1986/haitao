@@ -3,24 +3,42 @@
  */
 export default [{
 	path: '/',
-	name: 'index',
-	component: require('./views/home/index')
-}, {
+	name: 'home',
+	component: require('./views/home')
+},{
 	path: '/home',
-	name: 'index',
-	component: require('./views/home/index')
-},
-{
-	path: '/forum',
-	name: 'forum',
-	component: require('./views/forum/index')
-}, {
-		path: '/forum_detail/:id',
-		name: 'forum_detail',
-		component: require('./views/forum/detail')
-},
-{
-	path: '/user',
-	name: 'user',
-	component: require('./views/user/index')
+	name: 'home',
+	component: require('./views/home')
+},{
+	path: '/details',
+	name: 'details',
+	component: require('./views/details')
+},{
+	path: '/car',
+	name: 'car',
+	component: require('./views/car')
+},{
+	path: '/share',
+	name: 'share',
+	component: require('./views/share')
+},{
+	path: '/specil',
+	name: 'specil',
+	component: require('./views/specil')
+},{
+	path: '/search',
+	name: 'search',
+	component: require('./views/search')
+},{
+	path: '/recommend',
+	name: 'recommend',
+	component: require('./views/recommend')
+},{
+	path: '/info',
+	name: 'info',
+	component: require('./views/info')
+},{
+	path: '/me',
+	name: 'me',
+	component: require('./views/me')
 }]

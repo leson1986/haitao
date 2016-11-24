@@ -8,7 +8,15 @@ import mutations from './mutations'
 
 
 const state = {
-	homeInfoData: [],
+	loading: false,
+	productsData: [],
+	productsItem: [],
+	infoData: '',
+	infoList: [],
+	feedbackInfo: '',
+	carList: [],
+	footNavStatus: 'home',
+	headNavStatus: ''
 
 }
 
