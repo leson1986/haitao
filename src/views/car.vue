@@ -1,7 +1,7 @@
 <template>
   <div>
 	  <div class="box clear fixedbox">
-		  <div class="fl icons"><i class="tips time">全场免单免税，一般3-10个工作日。</i></div>
+		  <div class="fl icons"><i class="tips time">全场非港行免单免税，单买港行不包邮。</i></div>
 		  <div class="fr">
 			  <router-link :to="{name: 'home'}">
 				  <span class="fr_more Fgreen">继续购物</span>
@@ -36,6 +36,12 @@
 						  </div>
 						  <div>
 							  <span class="Fred Fbig">{{ items.products_desc }}元</span>
+						  </div>
+						  <div>
+							  <p class="time icons freight">
+								  <i class="plane">快递：</i>
+								  国内一般情况下发顺丰；国外直达另计
+							  </p>
 						  </div>
 					  </div>
 				  </li>
